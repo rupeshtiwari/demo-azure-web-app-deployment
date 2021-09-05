@@ -18,7 +18,7 @@ az webapp create --name $AZURE_WEB_APP --resource-group $RESOURCE_GROUP --plan $
 curl $AZURE_WEB_APP.azurewebsites.net
 
 # Deploy this SPA Source Code from GitHub to your Azure Web App
-az webapp deployment source config --name $AZURE_WEB_APP --resource-group $RESOURCE_GROUP --repo-url "https://github.com/rupeshtiwari/demo-azure-web-app-deployment" --branch master --manual-integration
+az webapp deployment source config --name $AZURE_WEB_APP --resource-group $RESOURCE_GROUP --repo-url "https://github.com/rupeshtiwari/demo-azure-web-app-deployment" --branch main --manual-integration
 
 # Access site again 
 curl $AZURE_WEB_APP.azurewebsites.net
