@@ -24,4 +24,7 @@ az webapp deployment source config --name $AZURE_WEB_APP --resource-group $RESOU
 curl $AZURE_WEB_APP.azurewebsites.net
 ```
 
+https://popupwebapp-324.azurewebsites.net/ 
+
+
 ![](https://i.imgur.com/9N8FPSZ.png)
