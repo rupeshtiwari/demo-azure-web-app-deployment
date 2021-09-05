@@ -1,6 +1,6 @@
 # demo-azure-web-app-deployment
  
-## Create an Azure website using the Azure CLI 
+## Create an Azure website using the Azure CLI & Deploy Code from GitHub
 
 ```powershell
 export RESOURCE_GROUP=learn-4e18e730-c221-430b-bc4e-6feac0b20082
